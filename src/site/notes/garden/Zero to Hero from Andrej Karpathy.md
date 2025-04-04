@@ -6,5 +6,6 @@
 
 These are my notes form Andrej Karpathy's [Neural Networks: Zero to Hero playlist](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 
-[[garden/Chapter 1-Intuition for backprop and building micrograd\|Chapter 1-Intuition for backprop and building micrograd]]
+[[garden/Chapter 1-Intuition for derivatives\|Chapter 1-Intuition for derivatives]]
+[[garden/Chapter 2- Building micrograd\|Chapter 2- Building micrograd]]
 
