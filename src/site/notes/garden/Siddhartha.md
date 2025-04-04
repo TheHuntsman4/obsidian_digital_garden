@@ -3,7 +3,10 @@
 ---
 
 04.04.25
+<center>
 ![Pasted image 20250404140418.png](/img/user/images/Pasted%20image%2020250404140418.png)
+</center>
+
 ## What is the book about?
 
 Siddhartha is a book by Herman Hesse. The main focus as the title of the books suggests is about a man named Siddhartha and follows his very incredible and interesting journey leading to his eventual awakening and eventual ascension into enlightenment.
