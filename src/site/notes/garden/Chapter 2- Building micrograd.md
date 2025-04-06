@@ -59,3 +59,13 @@ class Value:
 ```
 
 Now the Value object has the `_children` and `_op` arguments. The `_children` argument keeps track of all the variables and previous values that were used to come to the final result. The `_op` argument keeps track of the last operation applied to the value. So now when we perform any complex math-y thing, we will have a full history on where the value came from and how the value came to be.
+
+Now the question is why we would need to keep track of the any of this in the first place. Well as the name suggests, we will eventually have to figure out the gradients, for which we will need to get the derivative for each step w.r.t to each participating variable.
+
+The current Value object is thus able to do a forward pass properly, the thing left to do is back propagation.
+
+### Visualizing a forward pass
+For the visualization, I will be using the same code from the video
+![Pasted image 20250406223025.png](/img/user/images/Pasted%20image%2020250406223025.png)
+
+
