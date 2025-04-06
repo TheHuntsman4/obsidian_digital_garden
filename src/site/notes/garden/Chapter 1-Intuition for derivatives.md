@@ -120,3 +120,6 @@ print(f"slope: {(d2-d1)/h}")
 ![Pasted image 20250405005335.png](/img/user/images/Pasted%20image%2020250405005335.png)
 **What happened here?**
 Now that we are differentiating w.r.t to c, as c is a contant the value of the expression would collapse down to 1, hence the answer of 0.999 which is *approx.* 1.
+
+
+Read the next chapter here: [[garden/Chapter 2- Building micrograd\|Chapter 2- Building micrograd]]
