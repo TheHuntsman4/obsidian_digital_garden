@@ -3,7 +3,6 @@
 ---
 
 07.04.25
-# How the f*** do activation functions work
 
 So you’ve built a neural net. It’s got layers. It's got weights. Maybe it even learns stuff. But somewhere along the line, someone told you:
 
