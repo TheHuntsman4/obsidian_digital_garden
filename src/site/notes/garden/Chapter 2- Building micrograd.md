@@ -65,7 +65,7 @@ Now the question is why we would need to keep track of the any of this in the fi
 The current Value object is thus able to do a forward pass properly, the thing left to do is back propagation.
 
 ### Visualizing a forward pass
-For the visualization, I will be using the same code from the video
+For this, I'll be using the same code from the video
 ![Pasted image 20250406223025.png](/img/user/images/Pasted%20image%2020250406223025.png)
 
 
