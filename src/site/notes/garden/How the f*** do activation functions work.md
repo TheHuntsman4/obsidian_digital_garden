@@ -12,7 +12,7 @@ So you’ve built a neural net. It’s got layers. It's got weights. Maybe it ev
 And you were like,  
 **“Okay???”**  
 But deep down, you were thinking:  
-**“How the f*** do activation functions actually work?”**
+**“How the f****** do activation functions actually work?”
 
 Let’s break it down.
 
@@ -24,13 +24,13 @@ In very blunt terms:
 Activation functions are little mathematical bouncers at the club called "Your Neural Net." Every time a neuron computes its weighted sum, the activation function decides whether that neuron gets to party (i.e. "activate") or not.
 
 More formally:  
-They take the output of a neuron and squash/transform it into a form that's usable by the next layer. That’s it.
+They take the output of a neuron and squash/transform it into a form that's usable by the next layer, and more importantly makes it so that the entire network learns in a more robust way. That’s it.
 
 ---
 
 ### But wait, why not just use raw values?
 
-Because that would turn your entire network into one big linear thing.  
+Because that would turn your entire network into one big linear expression.  
 Like this:
 
 ```python
@@ -43,9 +43,9 @@ Chaining linear operations just gives... another linear operation. No matter how
 y = A*x + B
 ```
 
-**No curves, no bends, no interesting decision boundaries. Just a boring ol' line.**
+**No curves, no bends, no interesting decision boundaries. Just a boring line.**
 
-Activation functions bring in the non-linearity. They give your network the ability to learn _actual complex stuff_ — like images, speech, or the fact that sometimes you gotta press snooze twice.
+Activation functions bring in the non-linearity. They give your network the ability to learn _actual complex stuff_ — like images, speech, etc.
 
 ---
 
@@ -61,7 +61,7 @@ f(x) = max(0, x)
 
 Most popular kid in the class. Easy to compute, works well, doesn’t saturate in the positive direction.
 
-But it _dies_ sometimes (literally called **dying ReLU**), where neurons get stuck outputting zero forever.
+But it _dies_ sometimes (called **dying ReLU**), where neurons get stuck outputting zero forever.
 
 #### 2. **Sigmoid**
 
@@ -69,8 +69,8 @@ But it _dies_ sometimes (literally called **dying ReLU**), where neurons get stu
 f(x) = 1 / (1 + exp(-x))
 ```
 
-S-shaped, squashes everything between 0 and 1. Used to be hot, now mostly retired except in output layers (e.g. for binary classification).  
-Also: suffers from **vanishing gradients**, which means it learns _really_ slow when inputs go too far from zero.
+S-shaped, squashes everything between 0 and 1. Used to be everywhere, now mostly retired except in output layers (e.g. for binary classification).  
+Also: suffers from **vanishing gradients**, which means it learns _really_ slow when inputs go too far from zero (the chain rule of calculus, which means that the deeper you go the smaller the gradient gets).
 
 #### 3. **Tanh**
 
@@ -92,13 +92,13 @@ Helps with the dying neuron problem.
 
 #### 5. **Softmax**
 
-Used in the **output layer** of multi-class classification networks. Turns raw scores into probabilities.
+Used in the **output layer** of multi-class classification networks. Turns raw scores into probabilities (but not exactly).
 
 ---
 
 ### Okay but what do they _do_ in code?
 
-Let’s take an example. Here's a fake-ass “neuron”:
+Let’s take an example. Here's a simple example of a neuron:
 
 ```python
 def neuron(x, w, b):
@@ -143,7 +143,7 @@ These curves define how gradients flow back during backprop. So choosing the wro
 
 - Activation functions make your neural net _not just a glorified linear regression_.
     
-- They inject non-linearity so that your model can learn **interesting** patterns.
+- They inject non-linearity so that your model can learn **actual** patterns.
     
 - Pick the right one depending on what you’re doing:
     
