@@ -21,5 +21,5 @@ I am Aniketh and I like researching on AI. You can find a lot of stuff here, fro
 [[garden/Siddhartha\|Siddhartha]]
 [[garden/Deep Work\|Deep Work]]
 
-# Java
+# Software Development
 [[garden/Some random Java knowledge\|Some random Java knowledge]]
