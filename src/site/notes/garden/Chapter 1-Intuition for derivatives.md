@@ -122,4 +122,4 @@ print(f"slope: {(d2-d1)/h}")
 Now that we are differentiating w.r.t to c, as c is a contant the value of the expression would collapse down to 1, hence the answer of 0.999 which is *approx.* 1.
 
 
-Read the next chapter here: [[garden/Chapter 2- Building micrograd\|Chapter 2- Building micrograd]]
+Read the next chapter here: [[garden/Chapter 2-Building micrograd\|Chapter 2-Building micrograd]]
