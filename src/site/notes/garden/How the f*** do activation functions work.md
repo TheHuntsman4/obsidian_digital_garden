@@ -157,38 +157,10 @@ Without them, your net would just be... well, **dumb**.
 
 ---
 
-Still confused? Honestly, just try plotting them and see how they bend the output space. It’s way cooler to _see_ what they do than to read about it.
-
-If you're using PyTorch or NumPy, try this:
-
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-
-x = np.linspace(-10, 10, 100)
-
-relu = np.maximum(0, x)
-sigmoid = 1 / (1 + np.exp(-x))
-tanh = np.tanh(x)
-leaky_relu = np.where(x > 0, x, 0.01 * x)
-
-plt.plot(x, relu, label='ReLU')
-plt.plot(x, sigmoid, label='Sigmoid')
-plt.plot(x, tanh, label='Tanh')
-plt.plot(x, leaky_relu, label='Leaky ReLU')
-plt.legend()
-plt.grid(True)
-plt.title("Activation Functions")
-plt.show()
-```
-
-Go ahead. Run it. See the curves.
+Still confused? Honestly, just try plotting them and see how they bend the output space. It’s way cooler to _see_ what they do than to read about it.  You can also find some basic visualizations and implementations for the functions I described in this notebook [here](https://github.com/TheHuntsman4/ML-DL-Stuff/blob/main/dl_notebooks/activation_function.ipynb).  
 
 ---
 
-Moral of the story:  
-**Neural nets without activation functions are like jokes without punchlines.**  
-They technically exist, but don’t really do anything interesting.
 
 
 
