@@ -21,3 +21,51 @@ So when do we use each of these?
 - Use a shallow copy when the object only has simple values like **numbers or strings**.
 - Use a deep copy when the object also **contains list, maps, or other objects** within them.
 
+## Post and Pre-Incrementation
+
+Java lets you write both `i++` and `++i` in a `for` loop. And if you're like me the first time you saw it, you probably went:
+
+> _"Wait—do they not do the same thing?"_
+
+Well, yes and no.
+
+Here's a simple `for` loop:
+
+```java
+for (int i = 0; i < 5; i++) {
+    System.out.println(i);
+}
+```
+
+Now switch it to pre-increment:
+
+```java
+for (int i = 0; i < 5; ++i) {
+    System.out.println(i);
+}
+```
+
+**Output? Same.**  
+So what's the catch?
+
+The difference lies in **when** the value is incremented:
+
+- `i++` → returns `i`, then increments.
+    
+- `++i` → increments `i`, then returns.
+    
+
+But in a `for` loop like this, the increment part isn't using the return value. It's just _"hey, increment i after this iteration"_ — so both behave the same.
+
+Where they start to behave differently is inside expressions:
+
+```java
+int i = 0;
+int a = i++;
+int b = ++i;
+System.out.println(a + " " + b);  // Output: 0 2
+```
+
+Here, `a` gets 0 (i before increment), and `b` gets 2 (i incremented _before_ assignment). Subtle, but important.
+
+
