@@ -7,6 +7,9 @@
 
 I am Aniketh and I like researching on AI. You can find a lot of stuff here, from serious notes about experiments and AI knowledge, to rants on books I've read and some personal blogs.
 
+
+## [[garden/About Me\|About Me]]
+
 ## [[garden/AI\|AI]]
 [[garden/Zero to Hero from Andrej Karpathy\|Zero to Hero from Andrej Karpathy]]
 [[garden/Running experiments\|Running experiments]]
