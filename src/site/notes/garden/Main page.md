@@ -19,6 +19,7 @@ I am Aniketh and I like researching on AI. You can find a lot of stuff here, fro
 ## Gen AI
 [[garden/Attention mechanisms\|Attention mechanisms]]
 [[garden/Agentic AI\|Agentic AI]]
+[[garden/Paper Reviews\|Paper Reviews]]
 
 ## Books 
 [[garden/Siddhartha\|Siddhartha]]
