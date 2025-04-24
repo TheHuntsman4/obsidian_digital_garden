@@ -10,4 +10,4 @@ I reviewed some papers for an incoming NLP project, here are my notes from them!
 [[garden/Exploiting LLM Quantization\|Exploiting LLM Quantization]]
 [[garden/LoRA+ Efficient Low Rank Adaptation of Large Models\|LoRA+ Efficient Low Rank Adaptation of Large Models]]
 [[garden/QLORA Efficient Finetuning of Quantized LLMs\|QLORA Efficient Finetuning of Quantized LLMs]]
-[[garden/Fine-tuning a Large Language Model for the Indian Legal System\|Fine-tuning a Large Language Model for the Indian Legal System]]
+[[garden/THE EXPRESSIVE POWER OF LOW-RANK ADAPTATION\|THE EXPRESSIVE POWER OF LOW-RANK ADAPTATION]]

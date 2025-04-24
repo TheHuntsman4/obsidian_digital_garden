@@ -17,3 +17,6 @@
 - **Drawbacks that are discussed in the paper:** The paper **demonstrates that the original LoRA method has limitations** in its learning dynamics, as standard LoRA is shown to be suboptimal.
     
 - **Improvements that can be made:** The paper introduces **LoRA+ as an improvement**. Further research could explore the **optimal learning rate ratios for different model architectures and task types**. Investigating the theoretical properties of LoRA and LoRA+ beyond the infinite-width limit could also yield further insights and potential improvements.
+ 
+Notes on fine tuning:
+- earlier, just training the the final layer and freezing all the other layers was used. This only lead to the output being the final output embeddings and it cant learn on internal model embeddings -> Adapters -> inference time is slower and is not efficient
