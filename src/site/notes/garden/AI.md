@@ -7,14 +7,14 @@ These notes are where I talk about my field of study; Artificial Intelligence.
 ## General AI
 04.04.25
 
-[[garden/Zero to Hero from Andrej Karpathy\|Zero to Hero from Andrej Karpathy]]
+[[garden/General AI/Zero to Hero from Andrej Karpathy\|Zero to Hero from Andrej Karpathy]]
 [[garden/Running experiments\|Running experiments]]
-[[garden/Learning algorithms and the math behind them\|Learning algorithms and the math behind them]]
-[[garden/How the f*** do activation functions work\|How the f*** do activation functions work]]
+[[garden/General AI/Learning algorithms and the math behind them\|Learning algorithms and the math behind them]]
+[[garden/General AI/How the f*** do activation functions work\|How the f*** do activation functions work]]
 
 ## NLP and LLMs
-[[garden/Attention mechanisms\|Attention mechanisms]]
-[[garden/Agentic AI\|Agentic AI]]
+[[garden/LLMs/Attention mechanisms\|Attention mechanisms]]
+[[garden/LLMs/Agentic AI\|Agentic AI]]
 
 ## Computer vision
 [[Kernels\|Kernels]]
