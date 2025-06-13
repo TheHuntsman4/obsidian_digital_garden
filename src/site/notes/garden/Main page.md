@@ -19,7 +19,7 @@ I am Aniketh and I like researching on AI. You can find a lot of stuff here, fro
 ## Gen AI
 [[garden/Attention mechanisms\|Attention mechanisms]]
 [[garden/Agentic AI\|Agentic AI]]
-[[garden/Fine-Tuning LLMs\|Fine-Tuning LLMs]]
+[[garden/LLMs/Fine-Tuning LLMs\|Fine-Tuning LLMs]]
 [[garden/Paper Reviews\|Paper Reviews]]
 
 ## Books 

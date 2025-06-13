@@ -13,7 +13,6 @@ These notes are where I talk about my field of study; Artificial Intelligence.
 [[garden/How the f*** do activation functions work\|How the f*** do activation functions work]]
 
 ## NLP and LLMs
-p
 [[garden/Attention mechanisms\|Attention mechanisms]]
 [[garden/Agentic AI\|Agentic AI]]
 
