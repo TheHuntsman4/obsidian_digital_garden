@@ -9,9 +9,8 @@
 
 #### Abstract 
 The point of having AI agents that simulate people could help in sociology realted scenrios, such as taking a survey, or for example in video games to make the experience more immersive. 
-**remove this later**
+
 Another good example that we would be working on this summer is how we coudl come up with a system that would facilitate a more simpler scenario of people interactnig with each other for the first time
-**remove this later**
 
 The paper presents an architecture for the agents with specific defined characteristics to interact with one another, allowing them to remember and plan the course and actions to be done the next day. They also describe some emergent behaviours being coming up during the course of the simulation.
 
