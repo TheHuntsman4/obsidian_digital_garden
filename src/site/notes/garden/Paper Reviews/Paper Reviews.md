@@ -8,3 +8,4 @@ Here are the notes to most of the papers I read. Enjoy!
 
 - [[garden/Paper Reviews/LLM Papers\|LLM Papers]]
 - [[garden/Paper Reviews/Generative Agents Interactive Simulacra of Human Behavior\|Generative Agents Interactive Simulacra of Human Behavior]]
+- [[garden/Paper Reviews/Generative Agent Simulations of 1,000 People\|Generative Agent Simulations of 1,000 People]]
