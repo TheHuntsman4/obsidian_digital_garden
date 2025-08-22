@@ -35,8 +35,6 @@ Repairing the TV is difficult due to its complex geometry.
 - **3DE**: pediatric transthoracic scans are of lower quality compared to adults  
 - **TEE**: affected by artifacts and limited cooperation in children  
 
- 
-
 ## Dataset Details
 ### Basic Information
 - 161 TEE 3DE images from 239 unique HLHS patients  
@@ -51,16 +49,11 @@ Repairing the TV is difficult due to its complex geometry.
 
 ![Pasted image 20250820232241.png](/img/user/images/Pasted%20image%2020250820232241.png)  
 *The Annular Curve with quadrant landmarks*  
-
- 
-
 ## Model Architecture
 - **Base architecture**: VNet  
 - Modifications:  
   - Changed activation from PReLU to ReLU based on experimental feedback  
   - Changed convolution filter sizes from 5×5×5 to 3×3×3  
-
- 
 
 ## Experiments and Methodology
 The paper explores different input configurations for segmentation, including:  
