@@ -38,6 +38,7 @@ This is where I dump everything — from serious experiment logs and AI deep div
 
 ## 📄 Paper Reviews  
 - [[garden/Paper Reviews/LLM Papers\|LLM Papers]]
+- [[garden/Paper Reviews/Medical AI Papers\|Medical AI Papers]]
 
 ---
 
