@@ -127,6 +127,35 @@ There are two approached that were carried out:
 
 ## How the evaluation is done: 
 - GSS: 177 questions that offer a quantifiable outcome. These serve as the benchmark against which the models simulated outcomes are compared against.
+- Big 5 personality traits: BFI-4## Generative Agent Simulations of 1,000 People
+- Model outputs still reflect some LLM biases.
+- Over-reliance on textual inferences (e.g., lack of multimodal cues).
+- Future work to explore richer memory systems, more nuanced agent behavior, and longitudinal changes.
+
+
+
+​￼# Thoughts: 
+
+The entire interview transcript is injected into the model prompt(average number of words: 6k). This will result in a significant increase in costs for API usage. It would be better if they put the transcipt into a text summariser or note generator. It may wont work as well as the raw interview, but it will be cheaper to do
+
+for experiments requiring more multiple decision making steps, agents were given memory of the previous stimuli in the form of short text descriptors.
+
+The main difference from the earlier implmentation of the simulacra is that this time they are trying not simulate real people. 
+The strength of simulation is based on a few factors: 
+- How the model responds to the same questions? Does it replicate what the person answered
+- The participating people were asked to complete the same interview again after 2 weeks
+- The output from the model, the original interview answers and the new interview answers were all clubbed together to get a final normalised score
+
+​￼## Predicting an individuals attitures and behaviours: 
+There are two approached that were carried out: 
+​￼- Demographic attributes: 
+	- Atttributes such as the age, gender, political outlook etc are captured based on teh GSS (General Social Survery) questions.
+​￼- Paragraph summarisation of the person (persona based):
+	- Done by making the participant write a paragraph about themseles after the interview. This is similar to the how they did this in the their previous paper: [[garden/Paper Reviews/Generative Agents Interactive Simulacra of Human Behavior\|Generative Agents Interactive Simulacra of Human Behavior]].
+
+
+​￼## How the evaluation is done: 
+- GSS: 177 questions that offer a quantifiable outcome. These serve as the benchmark against which the models simulated outcomes are compared against.
 - Big 5 personality traits: BFI-44
 
 
@@ -135,3 +164,13 @@ My main concern with this is, how secure is the evaluation? I feel like there is
 Ok so one of methods that they used was the point that I brought up in the beginning of this section, which was they could use a text summarisation model,  which they did and apparently it performed rather well.
 
 Randomly removing 80% of the interview only affected the GSS core from an average of 0.85 to 0.79, and text summarisation was less slightly lesser, reducing the core to just 0.83. 
+
+knaklnslnlgnrwgmn4
+
+
+My main concern with this is, how secure is the evaluation? I feel like there is a high likelihood of data leakage in the form of the thematic similarities between the questions that are asked. The authors did address that the interview and the "testing" questionnaires are completely different, but they do overlap thematically. 
+
+Ok so one of methods that they used was the point that I brought up in the beginning of this section, which was they could use a text summarisation model,  which they did and apparently it performed rather well.
+
+Randomly removing 80% of the interview only affected the GSS core from an average of 0.85 to 0.79, and text summarisation was less slightly lesser, reducing the core to just 0.83. 
+

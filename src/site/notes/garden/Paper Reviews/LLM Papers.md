@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/garden/paper-reviews/llm-papers/"}
 ---
 
-23.04.25
-
 I reviewed some papers for an incoming NLP project, here are my notes from them!
 
 
@@ -12,3 +10,5 @@ I reviewed some papers for an incoming NLP project, here are my notes from them!
 - [[garden/Paper Reviews/LoRA+ Efficient Low Rank Adaptation of Large Models\|LoRA+ Efficient Low Rank Adaptation of Large Models]]
 - [[garden/Paper Reviews/QLORA Efficient Finetuning of Quantized LLMs\|QLORA Efficient Finetuning of Quantized LLMs]]
 - [[garden/Paper Reviews/Exploiting LLM Quantization\|Exploiting LLM Quantization]]
+- [[garden/Paper Reviews/Generative Agent Simulations of 1,000 People\|Generative Agent Simulations of 1,000 People]]
+- [[garden/Paper Reviews/Generative Agents Interactive Simulacra of Human Behavior\|Generative Agents Interactive Simulacra of Human Behavior]]
