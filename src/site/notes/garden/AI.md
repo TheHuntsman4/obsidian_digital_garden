@@ -5,7 +5,6 @@
 These notes are where I talk about my field of study; Artificial Intelligence. 
 
 ## General AI
-04.04.25
 
 [[garden/General AI/Zero to Hero from Andrej Karpathy\|Zero to Hero from Andrej Karpathy]]
 [[garden/Running experiments\|Running experiments]]
@@ -17,6 +16,4 @@ These notes are where I talk about my field of study; Artificial Intelligence.
 [[garden/LLMs/Agentic AI\|Agentic AI]]
 
 ## Computer vision
-[[Kernels\|Kernels]]
-[[Segmentation Algorithms\|Segmentation Algorithms]]
-[[Morphological operations\|Morphological operations]]
+[[garden/Notes on nnUNet\|Notes on nnUNet]] 
